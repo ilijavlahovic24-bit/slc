@@ -3,7 +3,7 @@ SLC: A Shader language Compiler
 
 ## Overview
 SLC is compiler that translates a custom made .slc files to .glsl files. 
-Main focus of this project if 
+Main focus of this project is type inference and code generation optimization.
 
 ### Prerequisites
 - C++ 11
@@ -14,7 +14,6 @@ cmake --build build
 ./build/slc 
 
 ## Project Structure
-Project is strucured in Rust Crates.
 
 SLC
 ├── examples/
@@ -36,16 +35,16 @@ SLC
 
 ### Completed
 - Project structure
+- Defined Lexic Symbols
 
 ### In Progress
-- Defining Grammar
 - Lexer
 
 
 ### Planned
 -Syntax Analysys
 -Semantic Analysis
-- Type Inference
+-Type Inference
 -Code Generation
 -Optimization
 -Playground
