@@ -1,0 +1,55 @@
+SLC: A Shader language Compiler
+## Status: Active Development
+
+## Overview
+SLC is compiler that translates a custom made .slc files to .glsl files. 
+Main focus of this project if 
+
+### Prerequisites
+- C++ 11
+
+## Getting Started
+cmake -B build
+cmake --build build
+./build/slc 
+
+## Project Structure
+Project is strucured in Rust Crates.
+
+SLC
+├── examples/
+    ├──compiled/      
+    example.slc
+├── spec/           #grammar 
+    ├──GLSL.MD      
+    ├──SLC.MD   
+├── src/
+    ├──codegen/             
+    ├──lexer/               
+    ├──optimization/        
+    ├──parser/              
+    ├──playground/         
+    └──semantic/           
+├── tests/
+
+
+
+### Completed
+- Project structure
+
+### In Progress
+- Defining Grammar
+- Lexer
+
+
+### Planned
+-Syntax Analysys
+-Semantic Analysis
+- Type Inference
+-Code Generation
+-Optimization
+-Playground
+
+## References and Documentation
+1. [Crafting Interpreters](https://craftinginterpreters.com/) — primary guide
+2. Programski Prevodioci 1 — Dragan Bojić, Maja Vukasović (ETF Belgrade)
