@@ -11,6 +11,8 @@ file(GLOB_RECURSE SLC_SOURCES
     src/parser/*.cpp
     src/semantic/*.cpp
     src/codegen/*.cpp
+    src/optimization/*.cpp
+    src/playground/*.cpp
 )
 
 add_executable(slc ${SLC_SOURCES} src/main.cpp)
