@@ -1,3 +1,5 @@
+#ifndef AST_HPP
+#define AST_HPP
 class ASTNode{
 public:    ASTNode();
 private:
@@ -13,3 +15,4 @@ private:
 
 
 };
+#endif

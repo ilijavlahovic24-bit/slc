@@ -1,3 +1,5 @@
+#ifndef LEXER_HPP
+#define LEXER_HPP
 #include <vector>
 #include <string>
 #include "token.hpp"
@@ -10,3 +12,4 @@ private:
     void next_symbol();
     int curr_line;
 };
+#endif

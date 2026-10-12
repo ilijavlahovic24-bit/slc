@@ -1,10 +1,12 @@
+#include <iostream>
 #include "lexer/lexer.hpp"
 #include "parser/parser.hpp"
-#include "semantic/sybol_table.hpp"
+#include "semantic/symbol_table.hpp"
 #include "semantic/semantic_pass.hpp"
 #include "codegen/glsl_generator.hpp"
 
 int main(int argc, char* argv[]) {
+    /*
     //Lexical Analysis
     char* sourcefile=argv[1];
     Lexer lexer(sourcefile);
@@ -19,5 +21,6 @@ int main(int argc, char* argv[]) {
     //CodeGeneration
     GLSLGenerator code_generator;
     code_generator.generate(ast, symbol_table);
-    return 0;
+    return 0;*/
+    std::cout << "Hello, World!" << std::endl;
 }
