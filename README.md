@@ -1,4 +1,4 @@
-SLC: A Shader language Compiler
+# SLC: A Shader language Compiler
 ## Status: Active Development
 
 ## Overview
