@@ -42,12 +42,12 @@ SLC
 
 
 ### Planned
--Syntax Analysys
--Semantic Analysis
--Type Inference
--Code Generation
--Optimization
--Playground
+- Syntax Analysys
+- Semantic Analysis
+- Type Inference
+- Code Generation
+- Optimization
+- Playground
 
 ## References and Documentation
 1. [Crafting Interpreters](https://craftinginterpreters.com/) — primary guide
