@@ -14,7 +14,7 @@ cmake --build build
 ./build/slc 
 
 ## Project Structure
-
+```
 SLC
 ├── examples/
     ├──compiled/      
@@ -31,7 +31,7 @@ SLC
     └──semantic/           
 ├── tests/
 
-
+```
 
 ### Completed
 - Project structure
