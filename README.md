@@ -9,10 +9,11 @@ Main focus of this project is type inference and code generation optimization.
 - C++ 11
 
 ## Getting Started
+```
 cmake -B build
 cmake --build build
 ./build/slc 
-
+```
 ## Project Structure
 ```
 SLC
